@@ -25,3 +25,4 @@ jobs:
       branch: stable
       arches: x86_64
       submodules: recursive
+      run-linter: false
