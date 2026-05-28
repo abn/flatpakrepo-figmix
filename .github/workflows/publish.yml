@@ -11,10 +11,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: aetherpak-publish-${{ github.repository }}
-  cancel-in-progress: false
-
 jobs:
   publish:
     name: Publish com.odnoyko.figmix
