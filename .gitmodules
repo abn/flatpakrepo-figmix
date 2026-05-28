@@ -1,0 +1,3 @@
+[submodule "apps/com.odnoyko.figmix"]
+	path = apps/com.odnoyko.figmix
+	url = https://gitlab.com/Valo27/figmix.git
