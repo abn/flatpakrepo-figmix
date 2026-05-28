@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      reconcile-only:
+        description: Skip build/publish-oci; only reconcile the index against the registry and re-deploy.
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -22,3 +27,4 @@ jobs:
       arches: x86_64
       submodules: recursive
       run-linter: false
+      reconcile-only: ${{ inputs.reconcile-only || false }}
