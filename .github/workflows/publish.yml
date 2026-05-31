@@ -19,10 +19,9 @@ permissions:
 jobs:
   publish:
     name: Publish com.odnoyko.figmix
-    uses: aetherpak/actions/.github/workflows/publish.yml@v2
+    uses: aetherpak/actions/.github/workflows/publish.yml@v3
     with:
       manifest-path: apps/com.odnoyko.figmix/com.odnoyko.figmix.json
-      runtime: freedesktop-25.08
       branch: stable
       arches: x86_64
       submodules: recursive
