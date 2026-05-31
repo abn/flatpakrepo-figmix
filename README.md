@@ -2,6 +2,8 @@
 
 Flatpak repository for [Figmix](https://gitlab.com/Valo27/figmix) — unofficial Figma desktop client for Linux — built and published via [aetherpak/actions](https://github.com/aetherpak/actions).
 
+The Flatpak repository can be viewed [here](https://abn.github.io/flatpakrepo-figmix/).
+
 ## Layout
 
 - `apps/com.odnoyko.figmix/` — upstream source as a git submodule pointing at `https://gitlab.com/Valo27/figmix.git`.
